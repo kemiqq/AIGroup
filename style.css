@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: "PlayfairDisplay";
-    src: url("/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+    src: url("fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: "PlayfairDisplay-bold";
-    src: url("/fonts/PlayfairDisplay-Bold.ttf");
+    src: url("fonts/PlayfairDisplay-Bold.ttf");
 }
 
 body {
@@ -103,7 +103,7 @@ body {
 .navigation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 100px; /* Расстояние между кнопками */
+  gap: 100px; 
 }
 .navigation1 {
     display: flex;
