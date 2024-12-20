@@ -37,7 +37,7 @@ const registerForm = document.getElementById('registerForm');
             const formData = new FormData(registerForm);
             const data = Object.fromEntries(formData.entries());
                 console.log('Form submitted:', data);  
-                alert('Регистрация успешно завершена!');
+                alert('Ваша заявка успешно отправлена! Скоро мы с вами свяжемся!');
                 closeModal(document.getElementById('registerModal'));
                 registerForm.reset();
             })
